@@ -38,4 +38,4 @@ const CartContainer = () => {
   );
 };
 
-export default CartContainer
+export default CartContainer;
