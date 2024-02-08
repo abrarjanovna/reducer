@@ -1,5 +1,6 @@
 import { useGlobalContext } from "../context";
 import CartItem from "./CartItem";
+import { SiGithub } from "react-icons/si";
 
 const CartContainer = () => {
   const { cart, clearCart, total } = useGlobalContext();
@@ -32,6 +33,11 @@ const CartContainer = () => {
           <button className="btn clear-btn" onClick={clearCart}>
             clear cart
           </button>
+        </footer>
+        <footer>
+          <a href="https://github.com/abrarjanovna/reducer">
+            <SiGithub />
+          </a>
         </footer>
       </div>
     </section>
